@@ -1,0 +1,17 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gradle
+.idea
+*.iml
+/local.properties
+/.DS_Store
+/build
+magicfilter/.DS_Store
+magicfilter/src/.DS_Store
+magicfilter/src/main/.DS_Store
+mp4parser/.DS_Store
+mp4parser/src/.DS_Store
+mp4parser/src/main/.DS_Store
+mp4parser/src/main/java/.DS_Store
+mp4parser/src/main/java/com/.DS_Store
+mp4parser/src/main/java/com/coremedia/iso/.DS_Store
+mp4parser/src/main/java/com/coremedia/iso/boxes/.DS_Store

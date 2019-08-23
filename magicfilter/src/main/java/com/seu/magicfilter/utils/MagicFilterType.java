@@ -1,0 +1,45 @@
+package com.seu.magicfilter.utils;
+
+/**
+ * Created by why8222 on 2016/2/25.
+ */
+public enum  MagicFilterType {
+    NONE,
+    SUNRISE,
+    SUNSET,
+    WHITECAT,
+    BLACKCAT,
+    SKINWHITEN,
+    BEAUTY,
+    HEALTHY,
+    ROMANCE,
+    SAKURA,
+    WARM,
+    ANTIQUE,
+    NOSTALGIA,
+    CALM,
+    LATTE,
+    TENDER,
+    COOL,
+    EMERALD,
+    EVERGREEN,
+    SKETCH,
+    AMARO,
+    BRANNAN,
+    BROOKLYN,
+    EARLYBIRD,
+    FREUD,
+    HUDSON,
+    INKWELL,
+    KEVIN,
+    N1977,
+    NASHVILLE,
+    PIXAR,
+    RISE,
+    SIERRA,
+    SUTRO,
+    TOASTER2,
+    VALENCIA,
+    WALDEN,
+    XPROII
+}

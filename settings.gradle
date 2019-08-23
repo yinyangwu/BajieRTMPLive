@@ -1,0 +1,1 @@
+include ':app', ':yasea', ':magicfilter', ':mp4parser', ':rtmppusher','uvccamera'

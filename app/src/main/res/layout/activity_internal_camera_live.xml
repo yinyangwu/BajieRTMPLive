@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+    <net.ossrs.yasea.SrsCameraGLSurfaceView
+        android:id="@+id/srsCameraView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:textColor="#ff0000"
+        android:textSize="16sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:layout_gravity="center_horizontal"
+            android:text="开始直播"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_back_camera"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="后置摄像头"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_open_flash_light"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="闪光灯开"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_video_hd_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="高清"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_magic_filter"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="滤镜"
+                android:textSize="20sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_send_video_only"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="视频+音频"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_soft_encoder"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="软件解码"
+                android:textSize="20sp"/>
+
+            <Button
+                android:id="@+id/btn_start_record_video"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="开始录制"
+                android:textSize="20sp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_choose_definition"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="请选择分辨率"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_normal_definition"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="标清"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_high_definition"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="高清"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_full_high_definition"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="全高清"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_close_choose_definition"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="关闭"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_choose_magic_filter"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccffffff"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:text="请选择滤镜"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rv_magic_filter_list"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btn_close_choose_magic_filter"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="关闭"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_choose_transform_type"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ccffffff"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:text="请选择传输类型"
+            android:textColor="@android:color/black"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_transform_audio"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="音频"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_transform_video"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="视频"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_transform_audio_video"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="音频+视频"
+            android:textSize="20sp"/>
+
+        <Button
+            android:id="@+id/btn_close_choose_transform_type"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:text="关闭"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</FrameLayout>
