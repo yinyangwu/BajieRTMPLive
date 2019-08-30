@@ -1,8 +1,8 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-ANDROID_NDK=$HOME/Android/Sdk/ndk-bundle
-SYSROOT=$ANDROID_NDK/platforms/android-21/arch-x86
-CROSS_PREFIX=$ANDROID_NDK/toolchains/x86-4.9/prebuilt/linux-x86_64/bin/i686-linux-android-
+NDK_HOME=/Library/Android/ndk/android-ndk-r17c
+SYSROOT="$NDK_HOME/platforms/android-21/arch-x86"
+CROSS_PREFIX="$NDK_HOME/toolchains/x86-4.9/prebuilt/darwin-x86_64/bin/i686-linux-android-"
 EXTRA_CFLAGS="-D__ANDROID__ -D__i686__"
 EXTRA_LDFLAGS="-nostdlib"
 PREFIX=`pwd`/libs/x86

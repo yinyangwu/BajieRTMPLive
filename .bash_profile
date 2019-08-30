@@ -1,0 +1,12 @@
+ANDROID_HOME=/Library/Android/sdk
+export PATH=${PATH}:${ANDROID_HOME}/tools
+export PATH=${PATH}:${ANDROID_HOME}/platform-tools
+NDK_HOME=/Library/Android/ndk/android-ndk-r17c
+export PATH=${PATH}:${NDK_HOME}
+NDK_HOST_PLATFORM=darwin-x86_64
+export PATH=${PATH}:#NDK_HOST_PLATFORM
+JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_221.jdk/Contents/Home
+export PATH=${PATH}:${JAVA_HOME}/lib
+export PATH=${PATH}:${JAVA_HOME}/bin
+GRADLE_HOME=/Users/YoungWu/.gradle/wrapper/dists/gradle-5.4.1-all/3221gyojl5jsh0helicew7rwx/gradle-5.4.1
+export PATH=${PATH}:${GRADLE_HOME}/bin

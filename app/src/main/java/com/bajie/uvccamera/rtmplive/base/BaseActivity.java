@@ -1,7 +1,7 @@
 package com.bajie.uvccamera.rtmplive.base;
 
+import android.app.Activity;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
 
 import com.bajie.uvccamera.rtmplive.callback.IBase;
 
@@ -10,8 +10,8 @@ import com.bajie.uvccamera.rtmplive.callback.IBase;
  * create at: 2016/9/19 9:41
  * create by: yyw
  */
-public abstract class BaseActivity extends AppCompatActivity implements IBase {
-    protected AppCompatActivity activity;
+public abstract class BaseActivity extends Activity implements IBase {
+    protected Activity activity;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

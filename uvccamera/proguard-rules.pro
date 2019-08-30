@@ -19,8 +19,3 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
--keepclassmembers public class com.serenegiant.usb.UVCCamera {
-	public *;
-	protected *;
-	private *;
-}
