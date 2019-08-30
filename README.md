@@ -103,4 +103,4 @@ BajieRTMPLive/screenshoot/InternalCamera/without_magicfilter.mp4
 
 <img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/as5.png" width="720" alt="横屏高清模式warm滤镜效果"/>
 
-### b.UVC摄像头直播，使用Android6.0系统，定制硬件与定制系统，外接摄像头
+### b.UVC摄像头直播，使用Android6.0系统，外接摄像头
