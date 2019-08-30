@@ -24,7 +24,7 @@ SUNRISE,SUNSET,WHITECAT,BLACKCAT,SKINWHITEN,BEAUTY,HEALTHY,ROMANCE,SAKURA,WARM,A
 
 <img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a1.png" width="360" alt="未开启直播之前画面"/>
 
-### 2.使用前置摄像头，默认高清模式1280*720
+### 2.使用前置摄像头
 
 <img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a2.png" width="360" alt="使用前置摄像头"/>
 
@@ -36,17 +36,17 @@ SUNRISE,SUNSET,WHITECAT,BLACKCAT,SKINWHITEN,BEAUTY,HEALTHY,ROMANCE,SAKURA,WARM,A
 
 <img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a4.png" width="360" alt="开启闪光灯"/>
 
-### 5.选择分辨率，分为标清模式640*480，高清模式1280*720，全高清模式1920*1080，默认高清模式1280*720
+### 5.选择分辨率，分为标清模式640x480，高清模式1280x720，全高清模式1920x1080，默认高清模式1280x720
 
-<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a5.png" width="360" alt="选择分辨率，分为标清模式640*480，高清模式1280*720，全高清模式1920*1080，默认高清模式1280*720"/>
+<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a5.png" width="360" alt="选择分辨率，分为标清模式640x480，高清模式1280x720，全高清模式1920x1080，默认高清模式1280x720"/>
 
-### 6.标清模式，640*480
+### 6.标清模式，640x480
 
-<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a6.png" width="360" alt="标清模式，640*480"/>
+<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a6.png" width="360" alt="标清模式，640x480"/>
 
-### 7.全高清模式，1920*1080
+### 7.全高清模式，1920x1080
 
-<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a7.png" width="360" alt="全高清模式，1920*1080"/>
+<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a7.png" width="360" alt="全高清模式，1920x1080"/>
 
 ### 8.选择滤镜
 
@@ -54,11 +54,11 @@ SUNRISE,SUNSET,WHITECAT,BLACKCAT,SKINWHITEN,BEAUTY,HEALTHY,ROMANCE,SAKURA,WARM,A
 
 ### 9.选择warm，暖和效果滤镜
 
-<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a9.png" width="360" alt="选择warmer，暖和效果滤镜"/>
+<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a9.png" width="360" alt="选择warm，暖和效果滤镜"/>
 
 ### 10.warm，暖和效果滤镜展示
 
-<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a10.png" width="360" alt="warmer，暖和效果滤镜展示"/>
+<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/a10.png" width="360" alt="warm，暖和效果滤镜展示"/>
 
 ### 11.选择传输数据类型，可支持视频+音频、仅视频、仅音频，默认是视频+音频
 
@@ -101,6 +101,6 @@ BajieRTMPLive/screenshoot/InternalCamera/without_magicfilter.mp4
 
 横屏高清模式warm滤镜效果
 
-<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/as4.png" width="720" alt="横屏高清模式warm滤镜效果"/>
+<img src="https://raw.githubusercontent.com/yinyangwu/BajieRTMPLive/master/screenshoot/InternalCamera/as5.png" width="720" alt="横屏高清模式warm滤镜效果"/>
 
 ### b.UVC摄像头直播，使用Android6.0系统，定制硬件与定制系统，外接摄像头
