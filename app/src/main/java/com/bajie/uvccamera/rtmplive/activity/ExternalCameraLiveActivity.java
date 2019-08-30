@@ -72,7 +72,6 @@ public class ExternalCameraLiveActivity extends BaseActivity implements View.OnC
 
     private int currentPreviewWidth;
     private int currentPreviewHeight;
-    private int currentOrientation;
     private MagicFilterType currentMagicFilterType;
     private int currentTransformType;
     private int currentEncodeType;
@@ -167,7 +166,6 @@ public class ExternalCameraLiveActivity extends BaseActivity implements View.OnC
     private void initUVCPublisher() {
         currentPreviewWidth = SrsLiveConfig.HIGH_DEFINITION_WIDTH;
         currentPreviewHeight = SrsLiveConfig.HIGH_DEFINITION_HEIGHT;
-        currentOrientation = Configuration.ORIENTATION_LANDSCAPE;
         currentMagicFilterType = MagicFilterType.NONE;
         currentTransformType = 3;
         currentEncodeType = 0;
@@ -432,12 +430,8 @@ public class ExternalCameraLiveActivity extends BaseActivity implements View.OnC
     private void startLive(USBMonitor.UsbControlBlock ctrlBlock) {
         publisher.openCamera(ctrlBlock);
         publisher.setPreviewResolution(currentPreviewWidth, currentPreviewHeight);
-        if (currentOrientation == Configuration.ORIENTATION_PORTRAIT) {
-            publisher.setOutputResolution(currentPreviewHeight, currentPreviewWidth);
-        } else {
-            publisher.setOutputResolution(currentPreviewWidth, currentPreviewHeight);
-        }
-        publisher.setScreenOrientation(currentOrientation);
+        publisher.setOutputResolution(currentPreviewWidth, currentPreviewHeight);
+        publisher.setScreenOrientation(Configuration.ORIENTATION_LANDSCAPE);
         publisher.switchCameraFilter(currentMagicFilterType);
         if (currentVideoMode == 1) {
             publisher.setVideoSmoothMode();
